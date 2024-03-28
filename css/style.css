@@ -1,0 +1,41 @@
+/* ! fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --primary-color: #ffffff;
+    --bg-color: #000000;
+    --bg-grey: #777;
+
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Rubik', sans-seri;
+}
+
+::selection {
+    background: var(--bg-color);
+    color: var(--primary-color);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--secondary-font);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.navbar-brand img {
+    user-select: none;
+    pointer-events: none;
+    cursor: none;
+}
